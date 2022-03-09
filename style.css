@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 .header{
     background-color: #1F2937;
@@ -47,15 +48,18 @@ body{
     display: flex;
     gap: 18px;
 }
-.header-button{
+.header-button, .action-button{
     background-color: #3882F6;
     color: #F9FAF8;
     font-size: 18px;
     font-weight: bold;
     padding: 8px 24px;
-    border: none;
+    
     border-radius: 8px;
 
+}
+.header-button{
+    border: none;
 }
 .info-animals img{
     height: 100px;
@@ -66,4 +70,20 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.action{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 75px;
+    border-radius: 8px;
+}
+.action p{
+    margin-top: 6px;
+}
+.action h3{
+    margin-bottom: 6px;
 }
