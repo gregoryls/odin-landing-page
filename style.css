@@ -1,3 +1,7 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
 .header{
     background-color: #1F2937;
     display: flex;
@@ -52,4 +56,8 @@
     border: none;
     border-radius: 8px;
 
+}
+.info-animals img{
+    height: 100px;
+    width: 150px;
 }
