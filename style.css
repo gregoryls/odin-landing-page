@@ -7,10 +7,12 @@
 .baboon{
     height: 150px;
     width: 113px;
+    border-radius: 100px;
 }
 .macaws{
     height: 262px;
     width: 400px;
+    border-radius: 12px;
 }
 .headercontent h1{
     color: #F9FAF8;
@@ -32,6 +34,7 @@
     align-items: flex-start;
     gap: 32px;
     padding: 0px 100px 100px 100px;
+    justify-content: space-between;
 }
 .headersignup{
     padding: 0;
