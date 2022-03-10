@@ -47,6 +47,10 @@ body{
 .headerlinks{
     display: flex;
     gap: 18px;
+    
+}
+.headerlinks a{
+    text-decoration: none;
 }
 .header-button, .action-button{
     background-color: #3882F6;
